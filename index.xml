@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ryan Rasti</title>
+    <link>http://diamonddelt.github.io/</link>
+    <description>Recent content on Ryan Rasti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>rrrasti@yahoo.com (Ryan Rasti)</managingEditor>
+    <webMaster>rrrasti@yahoo.com (Ryan Rasti)</webMaster>
+    <copyright>Give me the strength to be better than I was yesterday.</copyright>
+    <lastBuildDate>Thu, 28 Dec 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://diamonddelt.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo Hosting Revisited</title>
+      <link>http://diamonddelt.github.io/posts/hostingrevisited/</link>
+      <pubDate>Thu, 28 Dec 2017 00:00:00 +0000</pubDate>
+      <author>rrrasti@yahoo.com (Ryan Rasti)</author>
+      <guid>http://diamonddelt.github.io/posts/hostingrevisited/</guid>
+      <description>New Domain, New Theme, Same Generator Well it was about time I spun up a new site. I still love using Hugo, as it&amp;rsquo;s combination of rendering speed, local-development friendliness, theme integration and testing, and elegant use of Markdown, make it an obvious choice. Plus, it&amp;rsquo;s written in Go! I initially gave Wordpress a try, and I still think there is a ton of value on that platform for actual monetization of content and user interaction&amp;hellip; but for a mostly personal blog or professional portfolio/contact site, Hugo has it beat.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://diamonddelt.github.io/about/</link>
+      <pubDate>Wed, 27 Dec 2017 00:00:00 +0000</pubDate>
+      <author>rrrasti@yahoo.com (Ryan Rasti)</author>
+      <guid>http://diamonddelt.github.io/about/</guid>
+      <description>My name is Ryan Rasti, and I am currently an IT Manager and DevOps engineer at eMetric LLC, located in San Antonio, TX. I love spending time with my family, learning new technologies, training in the gym, and playing oldschool video games.
+Areas of Expertise I have been involved in web software since graduating UTSA in 2011, and have proven experience in the following areas:
+ Programming / Web Software Development / Scripting Quality Assurance and Quality Engineering Devops Collaboration and Communication IT Asset Management Active Directory Management Project Management and Coordination Business and Systems Analysis Team Leadership Business and Technical Documentation  Contact I am currently open to consultation/engagements in the San Antonio, TX area or remotely.</description>
+    </item>
+    
+  </channel>
+</rss>
