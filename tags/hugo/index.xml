@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on Ryan Rasti</title>
-    <link>http://diamonddelt.github.io/tags/hugo/</link>
+    <link>http://ryanrasti.info/tags/hugo/</link>
     <description>Recent content in Hugo on Ryan Rasti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,15 +11,15 @@
     <copyright>Give me the strength to be better than I was yesterday.</copyright>
     <lastBuildDate>Thu, 28 Dec 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://diamonddelt.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://ryanrasti.info/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hugo Hosting Revisited</title>
-      <link>http://diamonddelt.github.io/posts/hostingrevisited/</link>
+      <link>http://ryanrasti.info/posts/hostingrevisited/</link>
       <pubDate>Thu, 28 Dec 2017 00:00:00 +0000</pubDate>
       <author>rrrasti@yahoo.com (Ryan Rasti)</author>
-      <guid>http://diamonddelt.github.io/posts/hostingrevisited/</guid>
+      <guid>http://ryanrasti.info/posts/hostingrevisited/</guid>
       <description>New Domain, New Theme, Same Generator Well it was about time I spun up a new site. I still love using Hugo, as it&amp;rsquo;s combination of rendering speed, local-development friendliness, theme integration and testing, and elegant use of Markdown, make it an obvious choice. Plus, it&amp;rsquo;s written in Go! I initially gave Wordpress a try, and I still think there is a ton of value on that platform for actual monetization of content and user interaction&amp;hellip; but for a mostly personal blog or professional portfolio/contact site, Hugo has it beat.</description>
     </item>
     

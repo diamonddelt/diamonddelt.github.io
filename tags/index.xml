@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Ryan Rasti</title>
-    <link>http://diamonddelt.github.io/tags/</link>
+    <link>http://ryanrasti.info/tags/</link>
     <description>Recent content in Tags on Ryan Rasti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,69 +11,69 @@
     <copyright>Give me the strength to be better than I was yesterday.</copyright>
     <lastBuildDate>Thu, 28 Dec 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://diamonddelt.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://ryanrasti.info/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Blog</title>
-      <link>http://diamonddelt.github.io/tags/blog/</link>
+      <link>http://ryanrasti.info/tags/blog/</link>
       <pubDate>Thu, 28 Dec 2017 00:00:00 +0000</pubDate>
       <author>rrrasti@yahoo.com (Ryan Rasti)</author>
-      <guid>http://diamonddelt.github.io/tags/blog/</guid>
+      <guid>http://ryanrasti.info/tags/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cloud</title>
-      <link>http://diamonddelt.github.io/tags/cloud/</link>
+      <link>http://ryanrasti.info/tags/cloud/</link>
       <pubDate>Thu, 28 Dec 2017 00:00:00 +0000</pubDate>
       <author>rrrasti@yahoo.com (Ryan Rasti)</author>
-      <guid>http://diamonddelt.github.io/tags/cloud/</guid>
+      <guid>http://ryanrasti.info/tags/cloud/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Development</title>
-      <link>http://diamonddelt.github.io/tags/development/</link>
+      <link>http://ryanrasti.info/tags/development/</link>
       <pubDate>Thu, 28 Dec 2017 00:00:00 +0000</pubDate>
       <author>rrrasti@yahoo.com (Ryan Rasti)</author>
-      <guid>http://diamonddelt.github.io/tags/development/</guid>
+      <guid>http://ryanrasti.info/tags/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Github</title>
-      <link>http://diamonddelt.github.io/tags/github/</link>
+      <link>http://ryanrasti.info/tags/github/</link>
       <pubDate>Thu, 28 Dec 2017 00:00:00 +0000</pubDate>
       <author>rrrasti@yahoo.com (Ryan Rasti)</author>
-      <guid>http://diamonddelt.github.io/tags/github/</guid>
+      <guid>http://ryanrasti.info/tags/github/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hosting</title>
-      <link>http://diamonddelt.github.io/tags/hosting/</link>
+      <link>http://ryanrasti.info/tags/hosting/</link>
       <pubDate>Thu, 28 Dec 2017 00:00:00 +0000</pubDate>
       <author>rrrasti@yahoo.com (Ryan Rasti)</author>
-      <guid>http://diamonddelt.github.io/tags/hosting/</guid>
+      <guid>http://ryanrasti.info/tags/hosting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>http://diamonddelt.github.io/tags/hugo/</link>
+      <link>http://ryanrasti.info/tags/hugo/</link>
       <pubDate>Thu, 28 Dec 2017 00:00:00 +0000</pubDate>
       <author>rrrasti@yahoo.com (Ryan Rasti)</author>
-      <guid>http://diamonddelt.github.io/tags/hugo/</guid>
+      <guid>http://ryanrasti.info/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vps</title>
-      <link>http://diamonddelt.github.io/tags/vps/</link>
+      <link>http://ryanrasti.info/tags/vps/</link>
       <pubDate>Thu, 28 Dec 2017 00:00:00 +0000</pubDate>
       <author>rrrasti@yahoo.com (Ryan Rasti)</author>
-      <guid>http://diamonddelt.github.io/tags/vps/</guid>
+      <guid>http://ryanrasti.info/tags/vps/</guid>
       <description></description>
     </item>
     
