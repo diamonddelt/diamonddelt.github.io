@@ -415,7 +415,7 @@ body {
 
 <p>It&rsquo;s really as easy as signing up for a free account on CloudFlare, and adding CloudFlare&rsquo;s custom nameservers at wherever you registered your domain name. You can explore their plans <a href="https://www.cloudflare.com/plans">here</a>, but since my website qualifies as a &ldquo;personal website/blog&rdquo;, I can leverage CloudFlare to front my website&rsquo;s content on their CDN, and use a shared SSL certificate, free of charge. It also gives me some basic CloudFlare services and protections, such as basic audit logs and access to the CloudFlare application panel. The free offering is, of course, intended to demonstrate the value of their platform, to entice you to scale up to their business-tier plans or better. If that day comes, I will revisit this topic, but for right now, with the kind of traffic this personal blog probably gets, this is an attractive (and free) option!</p>
 
-<h2 id="how-do-i-set-this-up-on-my-domain-which-is-hosted-by-my-insert-domain-registrar">How do I set this up on my domain, which is hosted by my <insert domain registrar>?</h2>
+<h2 id="how-do-i-set-this-up-on-my-domain-which-is-hosted-by-my-insert-domain-registrar">How do I set this up on my domain, which is hosted by my &ldquo;insert domain registrar&rdquo;?</h2>
 
 <p>I currenlty only have experience doing this at NameCheap, but my guess is, as long as your domain registrar allows you to specify custom nameservers in the advanced DNS configurations, you can do this too.</p>
 
@@ -426,12 +426,12 @@ body {
 <li>ulla.ns.cloudflare.com</li>
 </ul>
 
-<p><img src="/img/custom-ns.png" alt="NameCheap nameserver configuration" /></p>
+<p><img src="/images/custom-ns.PNG" alt="NameCheap nameserver configuration" /></p>
 
 <p>I waited about 12 hours for the assets to be cached across the CloudFront CDN, as well as DNS to propate, and presto! Now going to <a href="https://ryanrasti.info">https://ryanrasti.info</a> gives me the following SSL certificate information</p>
 
-<p><img src="images/cert-1.png" alt="Browser certificate information 1" />
-<img src="/img/cert-2.png" alt="Browser certificate information 2" /></p>
+<p><img src="/images/cert-1.PNG" alt="Browser certificate information 1" />
+<img src="/images/cert-2.PNG" alt="Browser certificate information 2" /></p>
 
 <p>I compiled the following list of some other common domain registrars in case you want to do this and you aren&rsquo;t using NameCheap</p>
 

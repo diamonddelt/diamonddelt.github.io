@@ -36,13 +36,13 @@
   </url>
   
   <url>
-    <loc>http://ryanrasti.info/tags/cloud/</loc>
+    <loc>http://ryanrasti.info/categories/cloud/</loc>
     <lastmod>2017-12-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://ryanrasti.info/categories/cloud/</loc>
+    <loc>http://ryanrasti.info/tags/cloud/</loc>
     <lastmod>2017-12-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -54,13 +54,13 @@
   </url>
   
   <url>
-    <loc>http://ryanrasti.info/tags/development/</loc>
+    <loc>http://ryanrasti.info/categories/development/</loc>
     <lastmod>2017-12-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://ryanrasti.info/categories/development/</loc>
+    <loc>http://ryanrasti.info/tags/development/</loc>
     <lastmod>2017-12-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -84,13 +84,13 @@
   </url>
   
   <url>
-    <loc>http://ryanrasti.info/tags/hosting/</loc>
+    <loc>http://ryanrasti.info/categories/hosting/</loc>
     <lastmod>2018-06-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://ryanrasti.info/categories/hosting/</loc>
+    <loc>http://ryanrasti.info/tags/hosting/</loc>
     <lastmod>2018-06-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
