@@ -3,8 +3,8 @@
 <head>
   
   <meta charset="utf-8">
-  <title>Hosting</title>
-  <meta name="description" content="Hosting">
+  <title>How I added SSL to my blog for free with CloudFlare</title>
+  <meta name="description" content="How I added SSL to my blog for free with CloudFlare">
   <meta name="author" content="Ryan Rasti">
   
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -336,8 +336,6 @@ body {
 
   
   
-  <link href="http://ryanrasti.info/categories/hosting/index.xml" rel="alternate" type="application/rss+xml" title="Ryan Rasti Feed" />
-  
 
   <meta name="generator" content="Hugo 0.40.2" />
   
@@ -373,40 +371,91 @@ body {
 </div>
 
 
-
 <div class="pure-g">
     <div class="pure-u-1-24 pure-u-md-5-24"></div>
 	<div class="pure-u-11-12 pure-u-md-5-8">
-	<div class="post-content">
-	  <p class="posts-name">Hosting:</p>
+        <div class="post">
 
-	  <ul class="posts">
-		
-		
-		
-		<li>
-		  
-		  <a class="post-list" href="http://ryanrasti.info/posts/adding-free-ssl/">How I added SSL to my blog for free with CloudFlare</a>
+            <div class="post-title">
+                <p class="footnote">
+                    <time class="">06-03-2018</time>
+		            
+                    
+                    |
+                    
+                    
+                    tags: [ <a href="http://ryanrasti.info/tags/hosting">hosting</a> <a href="http://ryanrasti.info/tags/ssl">ssl</a> <a href="http://ryanrasti.info/tags/github">github</a> <a href="http://ryanrasti.info/tags/cloudflare">cloudflare</a> <a href="http://ryanrasti.info/tags/blog">blog</a> <a href="http://ryanrasti.info/tags/free">free</a> <a href="http://ryanrasti.info/tags/dns">dns</a> ]
+                    
 
-		  <p class="footnote">
-			<time datetime="06-03-2018T00:00:00Z">06-03-2018</time>
-		  </p>
-		</li>
-		
-		
-		
-		<li>
-		  
-		  <a class="post-list" href="http://ryanrasti.info/posts/hostingrevisited/">Hugo Hosting Revisited</a>
+                    
+                    categories: [<a href="http://ryanrasti.info/categories/hosting">hosting</a> <a href="http://ryanrasti.info/categories/blogging">blogging</a> <a href="http://ryanrasti.info/categories/security">security</a> ]
+                    
 
-		  <p class="footnote">
-			<time datetime="12-28-2017T00:00:00Z">12-28-2017</time>
-		  </p>
-		</li>
-		
-		
-	  </ul>
-	</div>
+                    
+                </p>
+                <h1>How I added SSL to my blog for free with CloudFlare</h1>
+            </div>
+
+            <div class="post-content">
+                
+
+<h2 id="how-i-added-ssl-to-this-domain-for-free">How I added SSL to this domain for free</h2>
+
+<p>Hosting your blog for free on Github pages is a great way to have a web presence without paying hosting fees. It&rsquo;s secure, in that your most likely deploying a static site, and the responsibility of infrastructure patching and hardening is offloaded to Github (who is most likely better at it than you). However, one thing that is now mandatory, that you don&rsquo;t get for free with vanilla Github pages is SSL. In 2018, you could have the most killer content imaginable&hellip; heck you could even be giving away free IP, but if a user sees your site isn&rsquo;t behind SSL, they will most likely leave. With LetsEncrypt, and SSL becoming easier and easier to integrate into your website, there is little reason not to have it. And of course, TLS/SSL isn&rsquo;t a magic bullet, but some encryption is better than none.</p>
+
+<p>Below I&rsquo;ll outline briefly how I added SSL to this blog using only Cloudflare and an email address. No payment necessary.</p>
+
+<h2 id="typical-web-applications">Typical Web Applications</h2>
+
+<p>On a typical web application, buying an SSL certificate and adding SSL to your website is a somewhat involved process, involving obtaining a CSR (Certificate Signing Request) from your application server, sending it to the SSL certificate issuer along with a non-trivial fee, and installing the SSL certificate on the application servers themselves. And probably the most annoying thing about SSL issuance is the expiration - server administrators hate having to re-apply SSL patches every year, only to know they&rsquo;ll have to do the same thing again next year.</p>
+
+<h2 id="static-websites-deployed-on-github-pages">Static Websites Deployed on Github Pages</h2>
+
+<p>Since this website is created using Hugo and is deployed on Github pages <a href="https://github.com/diamonddelt/diamonddelt.github.io">here</a>, there is no way for me to generate a CSR to even apply for an SSL certificate, because the Github servers aren&rsquo;t under my control. That&rsquo;s the whole point. So how do we do this, then?</p>
+
+<p>It&rsquo;s really as easy as signing up for a free account on CloudFlare, and adding CloudFlare&rsquo;s custom nameservers at wherever you registered your domain name. You can explore their plans <a href="https://www.cloudflare.com/plans">here</a>, but since my website qualifies as a &ldquo;personal website/blog&rdquo;, I can leverage CloudFlare to front my website&rsquo;s content on their CDN, and use a shared SSL certificate, free of charge. It also gives me some basic CloudFlare services and protections, such as basic audit logs and access to the CloudFlare application panel. The free offering is, of course, intended to demonstrate the value of their platform, to entice you to scale up to their business-tier plans or better. If that day comes, I will revisit this topic, but for right now, with the kind of traffic this personal blog probably gets, this is an attractive (and free) option!</p>
+
+<h2 id="how-do-i-set-this-up-on-my-domain-which-is-hosted-by-my-insert-domain-registrar">How do I set this up on my domain, which is hosted by my <insert domain registrar>?</h2>
+
+<p>I currenlty only have experience doing this at NameCheap, but my guess is, as long as your domain registrar allows you to specify custom nameservers in the advanced DNS configurations, you can do this too.</p>
+
+<p>When I set this up at NameCheap, CloudFlare asked me to add/replace my current nameservers with two custom nameservers:</p>
+
+<ul>
+<li>john.ns.cloudflare.com</li>
+<li>ulla.ns.cloudflare.com</li>
+</ul>
+
+<p><img src="/img/custom-ns.png" alt="NameCheap nameserver configuration" /></p>
+
+<p>I waited about 12 hours for the assets to be cached across the CloudFront CDN, as well as DNS to propate, and presto! Now going to <a href="https://ryanrasti.info">https://ryanrasti.info</a> gives me the following SSL certificate information</p>
+
+<p><img src="images/cert-1.png" alt="Browser certificate information 1" />
+<img src="/img/cert-2.png" alt="Browser certificate information 2" /></p>
+
+<p>I compiled the following list of some other common domain registrars in case you want to do this and you aren&rsquo;t using NameCheap</p>
+
+<ul>
+<li><a href="https://my.bluehost.com/hosting/help/customnameservers">Bluehost</a></li>
+<li><a href="https://support.hostgator.com/articles/private-name-servers-setup">HostGator</a></li>
+<li><a href="https://www.godaddy.com/help/set-custom-nameservers-for-domains-registered-with-godaddy-12317">GoDaddy</a></li>
+<li><a href="https://www.name.com/support/articles/205934457-Registering-custom-nameservers">Name.com</a></li>
+<li><a href="http://www.networksolutions.com/support/move-dns-to-a-new-server/">Network Solutions</a></li>
+</ul>
+
+<h2 id="to-summarize">To summarize</h2>
+
+<p>What I did (which took me a grand total of maybe 30 minutes, excluding the time I spent waiting for CDN propagation) to get free SSL on my Github Pages blog&hellip;</p>
+
+<ol>
+<li>Make a free account at CloudFlare.com, and register my domain there</li>
+<li>Take the custom nameservers generated from registration at CloudFlare.com, and set them as default on my domain name provider (NameCheap)</li>
+<li>???</li>
+<li>Profit!</li>
+</ol>
+
+            </div>
+        </div>
 	</div>
     <div class="pure-u-1-24 pure-u-md-1-6"></div>
 </div>
@@ -449,7 +498,7 @@ body {
 
         </ul>
         <a href="#" class="pure-menu-link pull-right" id="gototop-btn">↑↑</a>
-        <a href="http://ryanrasti.info/categories/hosting/index.xml" class="pure-menu-link pull-right">RSS</a>
+        <a href="" class="pure-menu-link pull-right">RSS</a>
       </div>
       
       <p id="foot-copyright">Give me the strength to be better than I was yesterday.</p>

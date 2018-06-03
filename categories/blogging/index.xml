@@ -9,10 +9,19 @@
     <managingEditor>rrrasti@yahoo.com (Ryan Rasti)</managingEditor>
     <webMaster>rrrasti@yahoo.com (Ryan Rasti)</webMaster>
     <copyright>Give me the strength to be better than I was yesterday.</copyright>
-    <lastBuildDate>Thu, 28 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 03 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://ryanrasti.info/categories/blogging/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How I added SSL to my blog for free with CloudFlare</title>
+      <link>http://ryanrasti.info/posts/adding-free-ssl/</link>
+      <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
+      <author>rrrasti@yahoo.com (Ryan Rasti)</author>
+      <guid>http://ryanrasti.info/posts/adding-free-ssl/</guid>
+      <description>How I added SSL to this domain for free Hosting your blog for free on Github pages is a great way to have a web presence without paying hosting fees. It&amp;rsquo;s secure, in that your most likely deploying a static site, and the responsibility of infrastructure patching and hardening is offloaded to Github (who is most likely better at it than you). However, one thing that is now mandatory, that you don&amp;rsquo;t get for free with vanilla Github pages is SSL.</description>
+    </item>
     
     <item>
       <title>Hugo Hosting Revisited</title>
