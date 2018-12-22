@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Ryan Rasti</title>
-    <link>http://ryanrasti.xyz/categories/</link>
+    <link>https://ryanrasti.xyz/categories/</link>
     <description>Recent content in Categories on Ryan Rasti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,51 +11,51 @@
     <copyright>Give me the strength to be better than I was yesterday.</copyright>
     <lastBuildDate>Sun, 03 Jun 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://ryanrasti.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ryanrasti.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Blogging</title>
-      <link>http://ryanrasti.xyz/categories/blogging/</link>
+      <link>https://ryanrasti.xyz/categories/blogging/</link>
       <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
       <author>rrrasti@yahoo.com (Ryan Rasti)</author>
-      <guid>http://ryanrasti.xyz/categories/blogging/</guid>
+      <guid>https://ryanrasti.xyz/categories/blogging/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cloud</title>
-      <link>http://ryanrasti.xyz/categories/cloud/</link>
+      <link>https://ryanrasti.xyz/categories/cloud/</link>
       <pubDate>Thu, 28 Dec 2017 00:00:00 +0000</pubDate>
       <author>rrrasti@yahoo.com (Ryan Rasti)</author>
-      <guid>http://ryanrasti.xyz/categories/cloud/</guid>
+      <guid>https://ryanrasti.xyz/categories/cloud/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Development</title>
-      <link>http://ryanrasti.xyz/categories/development/</link>
+      <link>https://ryanrasti.xyz/categories/development/</link>
       <pubDate>Thu, 28 Dec 2017 00:00:00 +0000</pubDate>
       <author>rrrasti@yahoo.com (Ryan Rasti)</author>
-      <guid>http://ryanrasti.xyz/categories/development/</guid>
+      <guid>https://ryanrasti.xyz/categories/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hosting</title>
-      <link>http://ryanrasti.xyz/categories/hosting/</link>
+      <link>https://ryanrasti.xyz/categories/hosting/</link>
       <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
       <author>rrrasti@yahoo.com (Ryan Rasti)</author>
-      <guid>http://ryanrasti.xyz/categories/hosting/</guid>
+      <guid>https://ryanrasti.xyz/categories/hosting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Security</title>
-      <link>http://ryanrasti.xyz/categories/security/</link>
+      <link>https://ryanrasti.xyz/categories/security/</link>
       <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
       <author>rrrasti@yahoo.com (Ryan Rasti)</author>
-      <guid>http://ryanrasti.xyz/categories/security/</guid>
+      <guid>https://ryanrasti.xyz/categories/security/</guid>
       <description></description>
     </item>
     
