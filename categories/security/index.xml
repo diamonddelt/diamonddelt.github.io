@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Security on Ryan Rasti</title>
-    <link>http://ryanrasti.info/categories/security/</link>
+    <link>http://ryanrasti.xyz/categories/security/</link>
     <description>Recent content in Security on Ryan Rasti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,15 +11,15 @@
     <copyright>Give me the strength to be better than I was yesterday.</copyright>
     <lastBuildDate>Sun, 03 Jun 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://ryanrasti.info/categories/security/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://ryanrasti.xyz/categories/security/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How I added SSL to my blog for free with CloudFlare</title>
-      <link>http://ryanrasti.info/posts/adding-free-ssl/</link>
+      <link>http://ryanrasti.xyz/posts/adding-free-ssl/</link>
       <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
       <author>rrrasti@yahoo.com (Ryan Rasti)</author>
-      <guid>http://ryanrasti.info/posts/adding-free-ssl/</guid>
+      <guid>http://ryanrasti.xyz/posts/adding-free-ssl/</guid>
       <description>How I added SSL to this domain for free Hosting your blog for free on Github pages is a great way to have a web presence without paying hosting fees. It&amp;rsquo;s secure, in that your most likely deploying a static site, and the responsibility of infrastructure patching and hardening is offloaded to Github (who is most likely better at it than you). However, one thing that is now mandatory, that you don&amp;rsquo;t get for free with vanilla Github pages is SSL.</description>
     </item>
     

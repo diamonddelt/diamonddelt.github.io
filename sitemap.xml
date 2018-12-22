@@ -3,136 +3,136 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://ryanrasti.info/posts/adding-free-ssl/</loc>
+    <loc>http://ryanrasti.xyz/about/</loc>
+    <lastmod>2018-12-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ryanrasti.xyz/posts/adding-free-ssl/</loc>
     <lastmod>2018-06-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ryanrasti.info/posts/hostingrevisited/</loc>
+    <loc>http://ryanrasti.xyz/posts/hostingrevisited/</loc>
     <lastmod>2017-12-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ryanrasti.info/about/</loc>
-    <lastmod>2017-12-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://ryanrasti.info/tags/blog/</loc>
+    <loc>http://ryanrasti.xyz/tags/blog/</loc>
     <lastmod>2018-06-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://ryanrasti.info/categories/blogging/</loc>
+    <loc>http://ryanrasti.xyz/categories/blogging/</loc>
     <lastmod>2018-06-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://ryanrasti.info/categories/</loc>
+    <loc>http://ryanrasti.xyz/categories/</loc>
     <lastmod>2018-06-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://ryanrasti.info/categories/cloud/</loc>
-    <lastmod>2017-12-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://ryanrasti.info/tags/cloud/</loc>
+    <loc>http://ryanrasti.xyz/tags/cloud/</loc>
     <lastmod>2017-12-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://ryanrasti.info/tags/cloudflare/</loc>
-    <lastmod>2018-06-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://ryanrasti.info/categories/development/</loc>
+    <loc>http://ryanrasti.xyz/categories/cloud/</loc>
     <lastmod>2017-12-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://ryanrasti.info/tags/development/</loc>
+    <loc>http://ryanrasti.xyz/tags/cloudflare/</loc>
+    <lastmod>2018-06-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ryanrasti.xyz/tags/development/</loc>
     <lastmod>2017-12-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://ryanrasti.info/tags/dns/</loc>
-    <lastmod>2018-06-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://ryanrasti.info/tags/free/</loc>
-    <lastmod>2018-06-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://ryanrasti.info/tags/github/</loc>
-    <lastmod>2018-06-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://ryanrasti.info/categories/hosting/</loc>
-    <lastmod>2018-06-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://ryanrasti.info/tags/hosting/</loc>
-    <lastmod>2018-06-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://ryanrasti.info/tags/hugo/</loc>
+    <loc>http://ryanrasti.xyz/categories/development/</loc>
     <lastmod>2017-12-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://ryanrasti.info/posts/</loc>
+    <loc>http://ryanrasti.xyz/tags/dns/</loc>
     <lastmod>2018-06-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://ryanrasti.info/</loc>
+    <loc>http://ryanrasti.xyz/tags/free/</loc>
     <lastmod>2018-06-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://ryanrasti.info/categories/security/</loc>
+    <loc>http://ryanrasti.xyz/tags/github/</loc>
     <lastmod>2018-06-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://ryanrasti.info/tags/ssl/</loc>
+    <loc>http://ryanrasti.xyz/tags/hosting/</loc>
     <lastmod>2018-06-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://ryanrasti.info/tags/</loc>
+    <loc>http://ryanrasti.xyz/categories/hosting/</loc>
     <lastmod>2018-06-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://ryanrasti.info/tags/vps/</loc>
+    <loc>http://ryanrasti.xyz/tags/hugo/</loc>
+    <lastmod>2017-12-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ryanrasti.xyz/posts/</loc>
+    <lastmod>2018-06-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ryanrasti.xyz/</loc>
+    <lastmod>2018-12-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ryanrasti.xyz/categories/security/</loc>
+    <lastmod>2018-06-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ryanrasti.xyz/tags/ssl/</loc>
+    <lastmod>2018-06-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ryanrasti.xyz/tags/</loc>
+    <lastmod>2018-06-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ryanrasti.xyz/tags/vps/</loc>
     <lastmod>2017-12-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

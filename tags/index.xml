@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Ryan Rasti</title>
-    <link>http://ryanrasti.info/tags/</link>
+    <link>http://ryanrasti.xyz/tags/</link>
     <description>Recent content in Tags on Ryan Rasti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,105 +11,105 @@
     <copyright>Give me the strength to be better than I was yesterday.</copyright>
     <lastBuildDate>Sun, 03 Jun 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://ryanrasti.info/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://ryanrasti.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Blog</title>
-      <link>http://ryanrasti.info/tags/blog/</link>
+      <link>http://ryanrasti.xyz/tags/blog/</link>
       <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
       <author>rrrasti@yahoo.com (Ryan Rasti)</author>
-      <guid>http://ryanrasti.info/tags/blog/</guid>
+      <guid>http://ryanrasti.xyz/tags/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cloud</title>
-      <link>http://ryanrasti.info/tags/cloud/</link>
+      <link>http://ryanrasti.xyz/tags/cloud/</link>
       <pubDate>Thu, 28 Dec 2017 00:00:00 +0000</pubDate>
       <author>rrrasti@yahoo.com (Ryan Rasti)</author>
-      <guid>http://ryanrasti.info/tags/cloud/</guid>
+      <guid>http://ryanrasti.xyz/tags/cloud/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cloudflare</title>
-      <link>http://ryanrasti.info/tags/cloudflare/</link>
+      <link>http://ryanrasti.xyz/tags/cloudflare/</link>
       <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
       <author>rrrasti@yahoo.com (Ryan Rasti)</author>
-      <guid>http://ryanrasti.info/tags/cloudflare/</guid>
+      <guid>http://ryanrasti.xyz/tags/cloudflare/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Development</title>
-      <link>http://ryanrasti.info/tags/development/</link>
+      <link>http://ryanrasti.xyz/tags/development/</link>
       <pubDate>Thu, 28 Dec 2017 00:00:00 +0000</pubDate>
       <author>rrrasti@yahoo.com (Ryan Rasti)</author>
-      <guid>http://ryanrasti.info/tags/development/</guid>
+      <guid>http://ryanrasti.xyz/tags/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dns</title>
-      <link>http://ryanrasti.info/tags/dns/</link>
+      <link>http://ryanrasti.xyz/tags/dns/</link>
       <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
       <author>rrrasti@yahoo.com (Ryan Rasti)</author>
-      <guid>http://ryanrasti.info/tags/dns/</guid>
+      <guid>http://ryanrasti.xyz/tags/dns/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Free</title>
-      <link>http://ryanrasti.info/tags/free/</link>
+      <link>http://ryanrasti.xyz/tags/free/</link>
       <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
       <author>rrrasti@yahoo.com (Ryan Rasti)</author>
-      <guid>http://ryanrasti.info/tags/free/</guid>
+      <guid>http://ryanrasti.xyz/tags/free/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Github</title>
-      <link>http://ryanrasti.info/tags/github/</link>
+      <link>http://ryanrasti.xyz/tags/github/</link>
       <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
       <author>rrrasti@yahoo.com (Ryan Rasti)</author>
-      <guid>http://ryanrasti.info/tags/github/</guid>
+      <guid>http://ryanrasti.xyz/tags/github/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hosting</title>
-      <link>http://ryanrasti.info/tags/hosting/</link>
+      <link>http://ryanrasti.xyz/tags/hosting/</link>
       <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
       <author>rrrasti@yahoo.com (Ryan Rasti)</author>
-      <guid>http://ryanrasti.info/tags/hosting/</guid>
+      <guid>http://ryanrasti.xyz/tags/hosting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>http://ryanrasti.info/tags/hugo/</link>
+      <link>http://ryanrasti.xyz/tags/hugo/</link>
       <pubDate>Thu, 28 Dec 2017 00:00:00 +0000</pubDate>
       <author>rrrasti@yahoo.com (Ryan Rasti)</author>
-      <guid>http://ryanrasti.info/tags/hugo/</guid>
+      <guid>http://ryanrasti.xyz/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ssl</title>
-      <link>http://ryanrasti.info/tags/ssl/</link>
+      <link>http://ryanrasti.xyz/tags/ssl/</link>
       <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
       <author>rrrasti@yahoo.com (Ryan Rasti)</author>
-      <guid>http://ryanrasti.info/tags/ssl/</guid>
+      <guid>http://ryanrasti.xyz/tags/ssl/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vps</title>
-      <link>http://ryanrasti.info/tags/vps/</link>
+      <link>http://ryanrasti.xyz/tags/vps/</link>
       <pubDate>Thu, 28 Dec 2017 00:00:00 +0000</pubDate>
       <author>rrrasti@yahoo.com (Ryan Rasti)</author>
-      <guid>http://ryanrasti.info/tags/vps/</guid>
+      <guid>http://ryanrasti.xyz/tags/vps/</guid>
       <description></description>
     </item>
     
