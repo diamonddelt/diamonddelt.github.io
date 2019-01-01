@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recruiting on Ryan Rasti</title>
+    <link>https://ryanrasti.xyz/tags/recruiting/</link>
+    <description>Recent content in Recruiting on Ryan Rasti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>rrrasti@yahoo.com (Ryan Rasti)</managingEditor>
+    <webMaster>rrrasti@yahoo.com (Ryan Rasti)</webMaster>
+    <copyright>Give me the strength to be better than I was yesterday.</copyright>
+    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ryanrasti.xyz/tags/recruiting/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Why you should rewrite your resume in JSON in 2019</title>
+      <link>https://ryanrasti.xyz/posts/write-your-resume-in-json/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <author>rrrasti@yahoo.com (Ryan Rasti)</author>
+      <guid>https://ryanrasti.xyz/posts/write-your-resume-in-json/</guid>
+      <description>Why you should rewrite your resume in JSON in 2019 Reposting this from LinkedIn:
+https://www.linkedin.com/pulse/refactor-your-resume-json-2019-ryan-rasti/</description>
+    </item>
+    
+  </channel>
+</rss>
