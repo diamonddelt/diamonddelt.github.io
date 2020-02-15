@@ -3,13 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ryanrasti.xyz/posts/write-your-resume-in-json/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <loc>https://ryanrasti.xyz/posts/passing-the-ckad-exam/</loc>
+    <lastmod>2020-02-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ryanrasti.xyz/about/</loc>
-    <lastmod>2018-12-22T00:00:00+00:00</lastmod>
+    <loc>https://ryanrasti.xyz/posts/write-your-resume-in-json/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -20,6 +20,16 @@
   <url>
     <loc>https://ryanrasti.xyz/posts/hostingrevisited/</loc>
     <lastmod>2017-12-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ryanrasti.xyz/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ryanrasti.xyz/tags/application/</loc>
+    <lastmod>2020-02-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -41,13 +51,37 @@
   </url>
   
   <url>
-    <loc>https://ryanrasti.xyz/categories/cloud/</loc>
-    <lastmod>2017-12-28T00:00:00+00:00</lastmod>
+    <loc>https://ryanrasti.xyz/tags/certification/</loc>
+    <lastmod>2020-02-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ryanrasti.xyz/categories/certification/</loc>
+    <lastmod>2020-02-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ryanrasti.xyz/tags/certified/</loc>
+    <lastmod>2020-02-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ryanrasti.xyz/tags/ckad/</loc>
+    <lastmod>2020-02-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ryanrasti.xyz/tags/cloud/</loc>
+    <lastmod>2017-12-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ryanrasti.xyz/categories/cloud/</loc>
     <lastmod>2017-12-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -59,14 +93,38 @@
   </url>
   
   <url>
-    <loc>https://ryanrasti.xyz/categories/development/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <loc>https://ryanrasti.xyz/tags/containers/</loc>
+    <lastmod>2020-02-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ryanrasti.xyz/tags/developer/</loc>
+    <lastmod>2020-02-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ryanrasti.xyz/tags/development/</loc>
     <lastmod>2017-12-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ryanrasti.xyz/categories/development/</loc>
+    <lastmod>2020-02-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ryanrasti.xyz/tags/devops/</loc>
+    <lastmod>2020-02-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ryanrasti.xyz/categories/devops/</loc>
+    <lastmod>2020-02-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -83,6 +141,12 @@
   </url>
   
   <url>
+    <loc>https://ryanrasti.xyz/tags/exam/</loc>
+    <lastmod>2020-02-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ryanrasti.xyz/tags/free/</loc>
     <lastmod>2018-06-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -95,13 +159,13 @@
   </url>
   
   <url>
-    <loc>https://ryanrasti.xyz/categories/hosting/</loc>
+    <loc>https://ryanrasti.xyz/tags/hosting/</loc>
     <lastmod>2018-06-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanrasti.xyz/tags/hosting/</loc>
+    <loc>https://ryanrasti.xyz/categories/hosting/</loc>
     <lastmod>2018-06-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -137,6 +201,24 @@
   </url>
   
   <url>
+    <loc>https://ryanrasti.xyz/tags/k8s/</loc>
+    <lastmod>2020-02-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ryanrasti.xyz/tags/kubernetes/</loc>
+    <lastmod>2020-02-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ryanrasti.xyz/categories/kubernetes/</loc>
+    <lastmod>2020-02-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ryanrasti.xyz/tags/latex/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -149,8 +231,32 @@
   </url>
   
   <url>
+    <loc>https://ryanrasti.xyz/tags/linux/</loc>
+    <lastmod>2020-02-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ryanrasti.xyz/tags/pass/</loc>
+    <lastmod>2020-02-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ryanrasti.xyz/posts/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-02-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ryanrasti.xyz/tags/practice/</loc>
+    <lastmod>2020-02-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ryanrasti.xyz/tags/preparation/</loc>
+    <lastmod>2020-02-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -174,7 +280,7 @@
   
   <url>
     <loc>https://ryanrasti.xyz/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-02-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -191,8 +297,14 @@
   </url>
   
   <url>
+    <loc>https://ryanrasti.xyz/tags/study/</loc>
+    <lastmod>2020-02-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ryanrasti.xyz/tags/</loc>
-    <lastmod>2018-06-03T00:00:00+00:00</lastmod>
+    <lastmod>2020-02-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

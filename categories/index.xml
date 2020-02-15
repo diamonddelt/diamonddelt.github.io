@@ -24,6 +24,15 @@
     </item>
     
     <item>
+      <title>Certification</title>
+      <link>https://ryanrasti.xyz/categories/certification/</link>
+      <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
+      <author>rrrasti@yahoo.com (Ryan Rasti)</author>
+      <guid>https://ryanrasti.xyz/categories/certification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Cloud</title>
       <link>https://ryanrasti.xyz/categories/cloud/</link>
       <pubDate>Thu, 28 Dec 2017 00:00:00 +0000</pubDate>
@@ -35,9 +44,18 @@
     <item>
       <title>Development</title>
       <link>https://ryanrasti.xyz/categories/development/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
       <author>rrrasti@yahoo.com (Ryan Rasti)</author>
       <guid>https://ryanrasti.xyz/categories/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Devops</title>
+      <link>https://ryanrasti.xyz/categories/devops/</link>
+      <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
+      <author>rrrasti@yahoo.com (Ryan Rasti)</author>
+      <guid>https://ryanrasti.xyz/categories/devops/</guid>
       <description></description>
     </item>
     
@@ -56,6 +74,15 @@
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <author>rrrasti@yahoo.com (Ryan Rasti)</author>
       <guid>https://ryanrasti.xyz/categories/job-searching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kubernetes</title>
+      <link>https://ryanrasti.xyz/categories/kubernetes/</link>
+      <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
+      <author>rrrasti@yahoo.com (Ryan Rasti)</author>
+      <guid>https://ryanrasti.xyz/categories/kubernetes/</guid>
       <description></description>
     </item>
     

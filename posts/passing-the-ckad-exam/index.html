@@ -3,8 +3,8 @@
 <head>
   
   <meta charset="utf-8">
-  <title>Development</title>
-  <meta name="description" content="Development">
+  <title>Passing the Certified Kubernetes Application Developer Exam in 2020</title>
+  <meta name="description" content="Passing the Certified Kubernetes Application Developer Exam in 2020">
   <meta name="author" content="Ryan Rasti">
   
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -336,8 +336,6 @@ body {
 
   
   
-  <link href="https://ryanrasti.xyz/categories/development/index.xml" rel="alternate" type="application/rss+xml" title="Ryan Rasti Feed" />
-  
 
   <meta name="generator" content="Hugo 0.40.2" />
   
@@ -373,51 +371,169 @@ body {
 </div>
 
 
-
 <div class="pure-g">
     <div class="pure-u-1-24 pure-u-md-5-24"></div>
 	<div class="pure-u-11-12 pure-u-md-5-8">
-	<div class="post-content">
-	  <p class="posts-name">Development:</p>
+        <div class="post">
 
-	  <ul class="posts">
-		
-		
-		
-		<li>
-		  
-		  <a class="post-list" href="https://ryanrasti.xyz/posts/passing-the-ckad-exam/">Passing the Certified Kubernetes Application Developer Exam in 2020</a>
+            <div class="post-title">
+                <p class="footnote">
+                    <time class="">02-13-2020</time>
+		            
+                    
+                    |
+                    
+                    
+                    tags: [ <a href="https://ryanrasti.xyz/tags/ckad">CKAD</a> <a href="https://ryanrasti.xyz/tags/certified">certified</a> <a href="https://ryanrasti.xyz/tags/kubernetes">kubernetes</a> <a href="https://ryanrasti.xyz/tags/application">application</a> <a href="https://ryanrasti.xyz/tags/developer">developer</a> <a href="https://ryanrasti.xyz/tags/certification">certification</a> <a href="https://ryanrasti.xyz/tags/pass">pass</a> <a href="https://ryanrasti.xyz/tags/study">study</a> <a href="https://ryanrasti.xyz/tags/preparation">preparation</a> <a href="https://ryanrasti.xyz/tags/practice">practice</a> <a href="https://ryanrasti.xyz/tags/exam">exam</a> <a href="https://ryanrasti.xyz/tags/k8s">k8s</a> <a href="https://ryanrasti.xyz/tags/containers">containers</a> <a href="https://ryanrasti.xyz/tags/devops">devops</a> <a href="https://ryanrasti.xyz/tags/linux">linux</a> ]
+                    
 
-		  <p class="footnote">
-			<time datetime="02-13-2020T00:00:00Z">02-13-2020</time>
-		  </p>
-		</li>
-		
-		
-		
-		<li>
-		  
-		  <a class="post-list" href="https://ryanrasti.xyz/posts/write-your-resume-in-json/">Why you should rewrite your resume in JSON in 2019</a>
+                    
+                    categories: [<a href="https://ryanrasti.xyz/categories/devops">devops</a> <a href="https://ryanrasti.xyz/categories/development">development</a> <a href="https://ryanrasti.xyz/categories/certification">certification</a> <a href="https://ryanrasti.xyz/categories/kubernetes">kubernetes</a> ]
+                    
 
-		  <p class="footnote">
-			<time datetime="01-01-2019T00:00:00Z">01-01-2019</time>
-		  </p>
-		</li>
-		
-		
-		
-		<li>
-		  
-		  <a class="post-list" href="https://ryanrasti.xyz/posts/hostingrevisited/">Hugo Hosting Revisited</a>
+                    
+                </p>
+                <h1>Passing the Certified Kubernetes Application Developer Exam in 2020</h1>
+            </div>
 
-		  <p class="footnote">
-			<time datetime="12-28-2017T00:00:00Z">12-28-2017</time>
-		  </p>
-		</li>
-		
-		
-	  </ul>
-	</div>
+            <div class="post-content">
+                
+
+<h2 id="certification-background">Certification Background</h2>
+
+<p>The <a href="https://www.cncf.io/certification/ckad/">Certified Kubernetes Application Developer (CKAD)</a> exam is one of two leading Kubernetes certification exams provided by the Cloud Native Computing Foundation (CNCF). The exam&rsquo;s focus is on understanding how to use <code>kubectl</code> and a vanilla Kubernetes installation to quickly spin-up, spin-down, or generally interact with application container architectures. Some examples include creating pods with sidecar containers, understanding how to create most basic API primitives via CLI or YAML manifest, and interacting with multiple namespaces. This exam is time-boxed at 2 hours. The CNCF also provides another certification exam, called the Certified Kubernetes Administrator (CKA), which focuses more on managing/administering the Kubernetes control plane. This exam is time-boxed at 3 hours. Both exams cost 300 USD as of 02/2020, but I used the discount code <code>KUBERNETES15</code> which I found using some creative reddit searching, bringing the cost of the exam down about 15%.</p>
+
+<p>Why did I go with the CKAD as opposed to the CKA? I chose to pursue the CKAD because I didn&rsquo;t possess an intimate interest in actually administering Kubernetes (I find a lot of places prefer to use tools like <em>kops</em> for these sorts of things), but rather just wanted to demonstrate a good baseline understanding of working with typical Kubernetes applications and patterns. I also read the pass rate for the CKAD was lower (66% required to pass as of 02/2020), and required less namespace and cluster context-switching (I&rsquo;ll touch on this later in the post).</p>
+
+<h2 id="exam-study-outline-strategy">Exam Study Outline / Strategy</h2>
+
+<p>How did I study for this exam and pass it? Keep in mind, this strategy was useful given to me with only a prior high level understanding of how Kubernetes worked, but no real-world production experience using it, and no day to day workloads or things to keep these concepts at the forefront of my mind.</p>
+
+<p>I broke down the preparation into a few distinct phases:</p>
+
+<ol>
+<li>Setup a practice Kubernetes cluster for subsequent phases</li>
+<li>Watch the core tutorial/video content and follow alone with practice environment, focusing on knowledge acquisition</li>
+<li>Compile a list of exam preparation quizzes</li>
+<li>Practice each quiz, attempting to create or define the Kubernetes resources using speed techniques (such as shorthand <code>kubectl</code> CLI commands and bash aliasing)</li>
+<li>Review exam tips prior to the exam</li>
+</ol>
+
+<h2 id="phase-1-practice-environment-buildout">Phase 1: Practice Environment Buildout</h2>
+
+<p>Integral to this certification prep strategy is having your own Kubernetes environment to practice along with, both for doing the basic introductary learning exercises from the video content, as well as for working with API primitives for speed preparation examples. Going through all of the ways one could setup a Kubernetes cluster is a bit beyond the scope of this blog post, but I used LinuxAcademy&rsquo;s Cloud Playground feature to keep 3 Linux VMs spun-up, and installed Kubernetes on those using the instructions provided by the companion course <a href="https://linuxacademy.com/course/certified-kubernetes-application-developer-ckad/">Certified Kubernetes Application Developer by Will Boyd</a>. This LinuxAcademy course was also the resource I used for the core video tutorial content in the next phase.</p>
+
+<p>Why did I choose to create playground environment on the LinuxAcademy platform, as opposed to building out my own on a set of dedicated hosts that I own? The answer is that the LinuxAcademy Cloud Playground offering allows you to access all of the cloud server infrastructure you spin up completely through a browser instance, which was a mandatory requirement for me to be able to use this practice environment within the boundaries of a highly regulated financial company&rsquo;s network (since the traffic is now just flowing over ports 80 and 443, as opposed to SSH over port 22, which is typically blocked at the firewall level in most secured environments).</p>
+
+<h2 id="phase-2-training-for-knowledge">Phase 2: Training for Knowledge</h2>
+
+<p>As mentioned earlier, I used the Certified Kubernetes Application Developer course on LinuxAcademy by Will Boyd, for learning the fundamentals of both Kubernetes and <code>kubectl</code>, as well as an overview of the CKAD exam, its structure, and a walkthrough of setting up a practice environment using the readily available <em>Cloud Playground</em> feature of the LinuxAcademy platform.</p>
+
+<p>I watched each lesson once, and made sure to follow along with all of the exercises in the lessons on my own practice environment, because I find that hands-on learning always beats just watching someone else do it 9 times out of 10. This course also provides some time-boxed <em>Lab Assignments</em>, which are more rigorous examples that give you real world certification exam-based questions and scenarios, for you to practice for longer periods of time. I did each of these lab assignments in my demo environments twice, but I found that these weren&rsquo;t rigorous or in enough depth to sufficiently prepare you for the exam on their own. They were great for learning the basic concepts, however.</p>
+
+<p>I highly recommend this course. I digested it in chunks of at most 1 hour per day, but even a moderately aggressive study pace, one could easily get through all of this lecture content in about 10 hours total.</p>
+
+<h2 id="phase-3-training-for-speed">Phase 3: Training for Speed</h2>
+
+<p>Once I completed watching the video lectures and tutorials, I asked myself if I had a good conceptual understanding with the following topics:</p>
+
+<ul>
+<li>The basic Kuberentes API primitives (pods, deployments, volumes, configmaps, secrets, services, etc)</li>
+<li>A good handle on how to write basic YAML Kubernetes resource manifests (the LinuxAcademy course above drills this hard, so you should be good to go)</li>
+<li>Comfortable using the <code>kubectl</code> CLI utility to perform basic operations, like instantiating a manifest file, listing pods, etc.</li>
+<li>Understanding how Kubernetes targets pods using selector patterns in the metadata</li>
+<li>A basic understanding of the sidecar container pattern (at this point I couldn&rsquo;t write a manifest to create one from memory, but could work through it with online help)</li>
+</ul>
+
+<p>At that point, I shifted gears and focus from increasing my understanding of how Kubernetes works and the less utilized API objects, to being able to create all of the previous API objects I learned using only the <code>kubectl</code> CLI utility, <em>as fast as possible</em>.</p>
+
+<p>You may be asking yourself - &ldquo;Why would you devote half of your study effort to re-learning how to create k8s API objects using <code>kubectl</code>, when you already know how to create them with a manifest file? The answer is - <em>in order to pass the exam, you have to</em>. It&rsquo;s really as simple as that. I&rsquo;m the kind of person who prefers to take their time and be sure I know the answer to a question before I answer it, but the CKAD exam seems to focus more on how quickly you can spin up the resources in the desired state, rather than how well you understand how they all fit together to form a solid application architecture.</p>
+
+<p>This is evident by the fact that the exam gives you 19 questions, which varying weights of the overall score, and only two hours to complete the exam. That may <em>seem</em> like a lot of time, but each question is a multi-step problem, and requires you to do the following pre-work before you can even begin answering the question:</p>
+
+<ul>
+<li>Ensure you are connected to the right k8s cluster, and if you are not, switch to the right cluster (if you answer a question in the wrong cluster, you get <em>no credit</em>)</li>
+<li>Ensure you are attached to the right namespace (the exam seems designed to purposely confuse you here. I wasted almost 2 minutes per question making sure I was in the right namespace)</li>
+<li>Read the question and understand everything it is asking you to create (sometimes it might have 3-4 different steps, including a post-step to validate what you created actually works)</li>
+</ul>
+
+<p>I really want to harp on the namespace thing a bit more. The exam actually used namespace values which contained capital &ldquo;O&rdquo; and &ldquo;0&rdquo; intermixed in the names of the namespaces (WTF), and each namespace name was a non-intuitive collection of letters and numbers. When each question buries which namespace you need to connect to half-way through the wording, or omits it entirely, alerting you that you need to be connected to the &ldquo;default&rdquo; namespace, you will probably find yourself starting to create an object to begin answering a question, then look back at the question and realize you forgot to connect to the right namespace. So then you&rsquo;ll have to delete whatever you just created, switch to the right namespace, and start over. <em>All of this eats precious time</em>. Because of this variance, you really have to be able to reliably create the actual API objects as fast as possible, so you can spend time doing this error-handling of the test environment.</p>
+
+<h2 id="speed-training-resources">Speed Training Resources</h2>
+
+<p>The following are the three sample question training resources I found through research to adequatly prepare you for the CKAD exam (assuming you have the foundational knowledge):</p>
+
+<ol>
+<li><a href="https://github.com/dgkanatsios/CKAD-exercises">https://github.com/dgkanatsios/CKAD-exercises</a></li>
+<li><a href="https://github.com/bmuschko/ckad-prep">https://github.com/bmuschko/ckad-prep</a></li>
+<li><a href="https://medium.com/bb-tutorials-and-thoughts/practice-enough-with-these-questions-for-the-ckad-exam-2f42d1228552">https://medium.com/bb-tutorials-and-thoughts/practice-enough-with-these-questions-for-the-ckad-exam-2f42d1228552</a></li>
+</ol>
+
+<p>There are a ton of other great resources online now which have sample questions and practice scenarios to help prepare you for the CKAD exam. However, I limited my training material to the these three URLs, because the sample questions they provided were the most comprehensive, updated, and relevant to the actual CKAD exam format. The only thing I&rsquo;ll say is that all of these resources lacked sufficient preparation for questions dealing with <em>network policies</em> and <em>ambassador container</em> patterns. Make a note of that for your own study plans.</p>
+
+<p>Ideally, when going through these problem sets, you should be practicing them on your own Kubernetes cluster (or a vendor provided one like LinuxAcademy), trying to do all of them using ONLY the CLI whenever possible. This will teach you which resources can and cannot currently be instantiated with a one-line <code>kubectl create/run</code> command, and only by going through these problem sets multiple times will you gain enough mind-muscle memory to be able to create pods, deployments, and services, instinctively. I&rsquo;d say to be safe, go through each of these problem sets twice. After each completion of an entire problem set, make a mental note of which k8s API object you are still not super familiar with creating quickly on the command-line, and return to that one again to study specifically when you are mentally recharged.</p>
+
+<h2 id="phase-5-other-very-useful-exam-tips">Phase 5: Other Very Useful Exam Tips</h2>
+
+<h3 id="be-mindful-of-varying-question-weights">Be Mindful of Varying Question Weights</h3>
+
+<p>The exam had a total of 19 questions, but each question ranged from being worth 2% of the overall grade, to up to 15%! Since the questions are unevenly weighted, it makes a ton of sense to spend the first 5 minutes of your exam skimming through all 19 questions of your exam, and making mental notes of which ones are the big-bangers vs. the paltry 2-3% questions. Typically, you&rsquo;d want to answer all the highest percentage of grade questions first, and save the bulk of your remaining time for the smaller % ones near the end.</p>
+
+<p>The only caveat to this strategy is if, during your skimming of the questions, you notice a low value question which can be answered almost immediately (i.e. it requires no context or cluster switching, can be solved with a single <code>kubectl create</code> command, and requires no post-validation) - in those situations, you should knock those out immediately and net some easy points.</p>
+
+<h3 id="time-saving-bash-aliases">Time-Saving Bash Aliases</h3>
+
+<p>As mentioned earlier, speed of completion of each question is the most important factor in passing this exam. At the beginning of my exam (literally the first 3 minutes), I added the following bash aliases to my shell, which greatly sped up the subsequent <code>kubectl</code> calls needed to answer all of the questions:</p>
+
+<ul>
+<li><code>$ k=kubectl</code></li>
+<li><code>$ kx='kubectl explain'</code></li>
+<li><code>$ kcscn='kubectl config set-context --current --namespace'</code></li>
+</ul>
+
+<p>Having to type <code>k</code> instead of <code>kubectl</code> greatly reduces the potential error-surface of mistypes you can make, in an exam where literally every second counts.</p>
+
+<h3 id="using-kubectl-explain">Using &lsquo;kubectl explain&rsquo;</h3>
+
+<p><code>kx</code> is another useful alias because although the exam lets you reference the online documentation in another browser tab, the internet connection speed and the exam interface become limiting factors in finding answers quickly. I found that it was much faster to lookup API reference help by using the <code>kubectl explain object_name.field1.field2.fieldN... | grep \&lt;</code> pattern to quickly find the proper way to format a YAML document in cases where the vanilla <code>kubectl create</code> command couldn&rsquo;t instantiate the object directly. I only really used the reference browser tab to look up how to setup an ambassador pod (because I completely blanked on this one - I ended up not even having enough time to complete it).</p>
+
+<p>With the <code>kx</code> alias, that command can be called much quicker, like <code>kx pod.spec.containers</code>. Remember - reducing potential fat-fingers on this exam = good idea.</p>
+
+<h3 id="be-aware-of-copy-paste-limitations-on-mac">Be Aware of Copy-Paste Limitations on Mac</h3>
+
+<p>If you decide to take the exam on OSX like I did, be <em>very</em> aware that the copy-paste hotkeys may not work as expected in the exam interface. Be prepared to copy-paste blocks of text into the built-in notepad, or use right mouse-clicks to copy-paste text blocks (this becomes important when you are modifying YAML files to add additional containers with almost identical fields - pretty common in the <em>adapter and logging pod questions</em>)</p>
+
+<h2 id="wrapping-up">Wrapping Up</h2>
+
+<p>There may be more preparation detail I missed in this post, as I spent about 2 months total getting ready for the exam. However, as mentioned earlier, there are a wealth of great resources which can lend additional guidance when you take the exam. Here are some more great resources I found for exam strategy, further learning/research, and technique refinement:</p>
+
+<ul>
+<li><a href="https://dev.to/scriptautomate/tips-for-the-certified-kubernetes-exams-cka-and-ckad-49mn">https://dev.to/scriptautomate/tips-for-the-certified-kubernetes-exams-cka-and-ckad-49mn</a></li>
+<li><a href="https://medium.com/@iizotov/exam-notes-ckad-c1c4f9fb9e73">https://medium.com/@iizotov/exam-notes-ckad-c1c4f9fb9e73</a></li>
+<li><a href="https://docs.google.com/spreadsheets/d/10NltoF_6y3mBwUzQ4bcQLQfCE1BWSgUDcJXy-Qp2JEU/edit">https://docs.google.com/spreadsheets/d/10NltoF_6y3mBwUzQ4bcQLQfCE1BWSgUDcJXy-Qp2JEU/edit</a></li>
+<li><a href="https://kubernetes.io/docs/reference/kubectl/cheatsheet/">https://kubernetes.io/docs/reference/kubectl/cheatsheet/</a></li>
+</ul>
+
+<p>I hope this brief guide helps you pass the CKAD exam! Reach out to me and let me hear your success after you pass.</p>
+
+<p>-Ryan</p>
+
+            </div>
+
+            
+			<div id="disqus_thread"></div>
+<script>
+    (function() { 
+        var d = document, s = d.createElement('script');
+        s.src = '//rrasti.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            <script id="dsq-count-scr" src="//careerboost.disqus.com/count.js" async></script>
+            
+        </div>
 	</div>
     <div class="pure-u-1-24 pure-u-md-1-6"></div>
 </div>
@@ -460,7 +576,7 @@ body {
 
         </ul>
         <a href="#" class="pure-menu-link pull-right" id="gototop-btn">↑↑</a>
-        <a href="https://ryanrasti.xyz/categories/development/index.xml" class="pure-menu-link pull-right">RSS</a>
+        <a href="" class="pure-menu-link pull-right">RSS</a>
       </div>
       
       <p id="foot-copyright">Give me the strength to be better than I was yesterday.</p>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Ryan Rasti</title>
+    <link>https://ryanrasti.xyz/tags/linux/</link>
+    <description>Recent content in Linux on Ryan Rasti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>rrrasti@yahoo.com (Ryan Rasti)</managingEditor>
+    <webMaster>rrrasti@yahoo.com (Ryan Rasti)</webMaster>
+    <copyright>Give me the strength to be better than I was yesterday.</copyright>
+    <lastBuildDate>Thu, 13 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ryanrasti.xyz/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Passing the Certified Kubernetes Application Developer Exam in 2020</title>
+      <link>https://ryanrasti.xyz/posts/passing-the-ckad-exam/</link>
+      <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
+      <author>rrrasti@yahoo.com (Ryan Rasti)</author>
+      <guid>https://ryanrasti.xyz/posts/passing-the-ckad-exam/</guid>
+      <description>Certification Background The Certified Kubernetes Application Developer (CKAD) exam is one of two leading Kubernetes certification exams provided by the Cloud Native Computing Foundation (CNCF). The exam&amp;rsquo;s focus is on understanding how to use kubectl and a vanilla Kubernetes installation to quickly spin-up, spin-down, or generally interact with application container architectures. Some examples include creating pods with sidecar containers, understanding how to create most basic API primitives via CLI or YAML manifest, and interacting with multiple namespaces.</description>
+    </item>
+    
+  </channel>
+</rss>
