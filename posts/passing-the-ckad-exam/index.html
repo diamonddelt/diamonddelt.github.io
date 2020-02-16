@@ -401,21 +401,23 @@ body {
 
 <h2 id="certification-background">Certification Background</h2>
 
-<p>The <a href="https://www.cncf.io/certification/ckad/">Certified Kubernetes Application Developer (CKAD)</a> exam is one of two leading Kubernetes certification exams provided by the Cloud Native Computing Foundation (CNCF). The exam&rsquo;s focus is on understanding how to use <code>kubectl</code> and a vanilla Kubernetes installation to quickly spin-up, spin-down, or generally interact with application container architectures. Some examples include creating pods with sidecar containers, understanding how to create most basic API primitives via CLI or YAML manifest, and interacting with multiple namespaces. This exam is time-boxed at 2 hours. The CNCF also provides another certification exam, called the Certified Kubernetes Administrator (CKA), which focuses more on managing/administering the Kubernetes control plane. This exam is time-boxed at 3 hours. Both exams cost 300 USD as of 02/2020, but I used the discount code <code>KUBERNETES15</code> which I found using some creative reddit searching, bringing the cost of the exam down about 15%.</p>
+<p>The <a href="https://www.cncf.io/certification/ckad/">Certified Kubernetes Application Developer (CKAD)</a> exam is one of two leading Kubernetes certification exams provided by the Cloud Native Computing Foundation (CNCF). The exam&rsquo;s focus is on understanding how to use <code>kubectl</code> and a vanilla Kubernetes installation to quickly spin-up, spin-down, or generally interact with application container architectures. Some examples include creating pods with sidecar containers, understanding how to create most basic API primitives via CLI or YAML manifest, and interacting with multiple namespaces. This exam is time-boxed at 2 hours.</p>
 
-<p>Why did I go with the CKAD as opposed to the CKA? I chose to pursue the CKAD because I didn&rsquo;t possess an intimate interest in actually administering Kubernetes (I find a lot of places prefer to use tools like <em>kops</em> for these sorts of things), but rather just wanted to demonstrate a good baseline understanding of working with typical Kubernetes applications and patterns. I also read the pass rate for the CKAD was lower (66% required to pass as of 02/2020), and required less namespace and cluster context-switching (I&rsquo;ll touch on this later in the post).</p>
+<p>The CNCF also provides another certification exam, called the Certified Kubernetes Administrator (CKA), which focuses more on managing/administering the Kubernetes control plane. The CKA exam is time-boxed at 3 hours, making it a bit more rigorous. Both exams cost 300 USD as of 02/2020, but I used the discount code <code>KUBERNETES15</code> which I found using some creative reddit searching, bringing the cost of the CKAD down about 15%.</p>
+
+<p>Why CKAD vs. CKA? I chose to pursue the CKAD because I didn&rsquo;t possess an intimate interest in actually administering Kubernetes (I find a lot of places prefer to use tools like <em>kops</em> for these sorts of things), but rather just wanted to demonstrate a good baseline understanding of working with typical Kubernetes applications and patterns. I also read the pass rate for the CKAD was lower (66% required to pass as of 02/2020), and required less namespace and cluster context-switching (I&rsquo;ll touch on this later in the post).</p>
 
 <h2 id="exam-study-outline-strategy">Exam Study Outline / Strategy</h2>
 
-<p>How did I study for this exam and pass it? Keep in mind, this strategy was useful given to me with only a prior high level understanding of how Kubernetes worked, but no real-world production experience using it, and no day to day workloads or things to keep these concepts at the forefront of my mind.</p>
+<p>How did I study for this exam and pass it? Keep in mind, this strategy was useful for me, having only a high level understanding of how Kubernetes worked, but no real-world production experience using it, and no day to day workloads or things to keep these concepts at the forefront of my mind.</p>
 
 <p>I broke down the preparation into a few distinct phases:</p>
 
 <ol>
 <li>Setup a practice Kubernetes cluster for subsequent phases</li>
 <li>Watch the core tutorial/video content and follow alone with practice environment, focusing on knowledge acquisition</li>
-<li>Compile a list of exam preparation quizzes</li>
-<li>Practice each quiz, attempting to create or define the Kubernetes resources using speed techniques (such as shorthand <code>kubectl</code> CLI commands and bash aliasing)</li>
+<li>Shifting focus from knowledge acquisition to fluency and speed using <code>kubectl</code> to create resources</li>
+<li>Compiling a list of practice scenarios emulating the exam, and doing these until I could bang them out quickly on the CLI</li>
 <li>Review exam tips prior to the exam</li>
 </ol>
 
@@ -427,7 +429,7 @@ body {
 
 <h2 id="phase-2-training-for-knowledge">Phase 2: Training for Knowledge</h2>
 
-<p>As mentioned earlier, I used the Certified Kubernetes Application Developer course on LinuxAcademy by Will Boyd, for learning the fundamentals of both Kubernetes and <code>kubectl</code>, as well as an overview of the CKAD exam, its structure, and a walkthrough of setting up a practice environment using the readily available <em>Cloud Playground</em> feature of the LinuxAcademy platform.</p>
+<p>For basic learnings, I used the Certified Kubernetes Application Developer course on LinuxAcademy by Will Boyd, for learning the fundamentals of both Kubernetes and <code>kubectl</code>, as well as an overview of the CKAD exam, its structure, and a walkthrough of setting up a practice environment using the readily available <em>Cloud Playground</em> feature of the LinuxAcademy platform.</p>
 
 <p>I watched each lesson once, and made sure to follow along with all of the exercises in the lessons on my own practice environment, because I find that hands-on learning always beats just watching someone else do it 9 times out of 10. This course also provides some time-boxed <em>Lab Assignments</em>, which are more rigorous examples that give you real world certification exam-based questions and scenarios, for you to practice for longer periods of time. I did each of these lab assignments in my demo environments twice, but I found that these weren&rsquo;t rigorous or in enough depth to sufficiently prepare you for the exam on their own. They were great for learning the basic concepts, however.</p>
 
@@ -459,7 +461,7 @@ body {
 
 <p>I really want to harp on the namespace thing a bit more. The exam actually used namespace values which contained capital &ldquo;O&rdquo; and &ldquo;0&rdquo; intermixed in the names of the namespaces (WTF), and each namespace name was a non-intuitive collection of letters and numbers. When each question buries which namespace you need to connect to half-way through the wording, or omits it entirely, alerting you that you need to be connected to the &ldquo;default&rdquo; namespace, you will probably find yourself starting to create an object to begin answering a question, then look back at the question and realize you forgot to connect to the right namespace. So then you&rsquo;ll have to delete whatever you just created, switch to the right namespace, and start over. <em>All of this eats precious time</em>. Because of this variance, you really have to be able to reliably create the actual API objects as fast as possible, so you can spend time doing this error-handling of the test environment.</p>
 
-<h2 id="speed-training-resources">Speed Training Resources</h2>
+<h2 id="phase-4-compile-speed-training-resources">Phase 4 - Compile Speed Training Resources</h2>
 
 <p>The following are the three sample question training resources I found through research to adequatly prepare you for the CKAD exam (assuming you have the foundational knowledge):</p>
 
