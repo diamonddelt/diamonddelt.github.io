@@ -61,5 +61,14 @@ https://www.linkedin.com/pulse/refactor-your-resume-json-2019-ryan-rasti/</descr
 I have a wide array of experience in DevOps and technology, both in the web and data/analytics spaces, having previously worked as an IT manager, DevOps and Infrastructure Engineer, and Software Engineer / SDET.</description>
     </item>
     
+    <item>
+      <title>Books</title>
+      <link>https://ryanrasti.xyz/books/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>rrrasti@yahoo.com (Ryan Rasti)</author>
+      <guid>https://ryanrasti.xyz/books/</guid>
+      <description>Recommended Reading Here is a shortlist of recommended reading materials, which I have personally found to be transformative, both in my personal and professional life. They are not in any particular rank order. To make the cut, the book has to have taught me something useful that I have retained, as opposed to storing temporarily and then forgetting later (looking at you college textbooks or technical reference books). Where possible, I will list the edition that I read/own, as well as a link where one could purchase it (or read it for free).</description>
+    </item>
+    
   </channel>
 </rss>
