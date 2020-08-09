@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lambda on Ryan Rasti</title>
+    <link>https://ryanrasti.xyz/tags/lambda/</link>
+    <description>Recent content in Lambda on Ryan Rasti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>rrrasti@yahoo.com (Ryan Rasti)</managingEditor>
+    <webMaster>rrrasti@yahoo.com (Ryan Rasti)</webMaster>
+    <copyright>Give me the strength to be better than I was yesterday.</copyright>
+    <lastBuildDate>Sat, 08 Aug 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ryanrasti.xyz/tags/lambda/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to Prep for the AWS DevOps Professional Certification in 2020</title>
+      <link>https://ryanrasti.xyz/posts/prepping-for-aws-devops-pro/</link>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
+      <author>rrrasti@yahoo.com (Ryan Rasti)</author>
+      <guid>https://ryanrasti.xyz/posts/prepping-for-aws-devops-pro/</guid>
+      <description>Another AWS Certification? After passing both the AWS Certified Solutions Architect associate exam, as well as the Certified Kubernetes Application Developer (CKAD) exam, I thought I was done with certification testing for awhile. Then, as we all know, the COVID-19 global pandemic happened, and I found myself with a bit more time at home to use for self-improvement and career development. After reading quite a few books, I felt the urge to pursue another certification, and the AWS DevOps pro was the next logical step - very pertinent to my current occupational workload at the moment.</description>
+    </item>
+    
+  </channel>
+</rss>

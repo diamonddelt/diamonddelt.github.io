@@ -24,6 +24,15 @@
     </item>
     
     <item>
+      <title>Aws</title>
+      <link>https://ryanrasti.xyz/tags/aws/</link>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
+      <author>rrrasti@yahoo.com (Ryan Rasti)</author>
+      <guid>https://ryanrasti.xyz/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Blog</title>
       <link>https://ryanrasti.xyz/tags/blog/</link>
       <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
@@ -44,9 +53,18 @@
     <item>
       <title>Certified</title>
       <link>https://ryanrasti.xyz/tags/certified/</link>
-      <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
       <author>rrrasti@yahoo.com (Ryan Rasti)</author>
       <guid>https://ryanrasti.xyz/tags/certified/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cicd</title>
+      <link>https://ryanrasti.xyz/tags/cicd/</link>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
+      <author>rrrasti@yahoo.com (Ryan Rasti)</author>
+      <guid>https://ryanrasti.xyz/tags/cicd/</guid>
       <description></description>
     </item>
     
@@ -78,18 +96,63 @@
     </item>
     
     <item>
+      <title>Cloudformation</title>
+      <link>https://ryanrasti.xyz/tags/cloudformation/</link>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
+      <author>rrrasti@yahoo.com (Ryan Rasti)</author>
+      <guid>https://ryanrasti.xyz/tags/cloudformation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Codebuild</title>
+      <link>https://ryanrasti.xyz/tags/codebuild/</link>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
+      <author>rrrasti@yahoo.com (Ryan Rasti)</author>
+      <guid>https://ryanrasti.xyz/tags/codebuild/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Codedeploy</title>
+      <link>https://ryanrasti.xyz/tags/codedeploy/</link>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
+      <author>rrrasti@yahoo.com (Ryan Rasti)</author>
+      <guid>https://ryanrasti.xyz/tags/codedeploy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Codepipelines</title>
+      <link>https://ryanrasti.xyz/tags/codepipelines/</link>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
+      <author>rrrasti@yahoo.com (Ryan Rasti)</author>
+      <guid>https://ryanrasti.xyz/tags/codepipelines/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Containers</title>
       <link>https://ryanrasti.xyz/tags/containers/</link>
-      <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
       <author>rrrasti@yahoo.com (Ryan Rasti)</author>
       <guid>https://ryanrasti.xyz/tags/containers/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Deployment Strategies</title>
+      <link>https://ryanrasti.xyz/tags/deployment-strategies/</link>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
+      <author>rrrasti@yahoo.com (Ryan Rasti)</author>
+      <guid>https://ryanrasti.xyz/tags/deployment-strategies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Developer</title>
       <link>https://ryanrasti.xyz/tags/developer/</link>
-      <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
       <author>rrrasti@yahoo.com (Ryan Rasti)</author>
       <guid>https://ryanrasti.xyz/tags/developer/</guid>
       <description></description>
@@ -107,7 +170,7 @@
     <item>
       <title>Devops</title>
       <link>https://ryanrasti.xyz/tags/devops/</link>
-      <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
       <author>rrrasti@yahoo.com (Ryan Rasti)</author>
       <guid>https://ryanrasti.xyz/tags/devops/</guid>
       <description></description>
@@ -134,7 +197,7 @@
     <item>
       <title>Exam</title>
       <link>https://ryanrasti.xyz/tags/exam/</link>
-      <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
       <author>rrrasti@yahoo.com (Ryan Rasti)</author>
       <guid>https://ryanrasti.xyz/tags/exam/</guid>
       <description></description>
@@ -155,6 +218,15 @@
       <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
       <author>rrrasti@yahoo.com (Ryan Rasti)</author>
       <guid>https://ryanrasti.xyz/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ha</title>
+      <link>https://ryanrasti.xyz/tags/ha/</link>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
+      <author>rrrasti@yahoo.com (Ryan Rasti)</author>
+      <guid>https://ryanrasti.xyz/tags/ha/</guid>
       <description></description>
     </item>
     
@@ -222,6 +294,15 @@
     </item>
     
     <item>
+      <title>Lambda</title>
+      <link>https://ryanrasti.xyz/tags/lambda/</link>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
+      <author>rrrasti@yahoo.com (Ryan Rasti)</author>
+      <guid>https://ryanrasti.xyz/tags/lambda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Latex</title>
       <link>https://ryanrasti.xyz/tags/latex/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
@@ -242,16 +323,25 @@
     <item>
       <title>Linux</title>
       <link>https://ryanrasti.xyz/tags/linux/</link>
-      <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
       <author>rrrasti@yahoo.com (Ryan Rasti)</author>
       <guid>https://ryanrasti.xyz/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Operations</title>
+      <link>https://ryanrasti.xyz/tags/operations/</link>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
+      <author>rrrasti@yahoo.com (Ryan Rasti)</author>
+      <guid>https://ryanrasti.xyz/tags/operations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Pass</title>
       <link>https://ryanrasti.xyz/tags/pass/</link>
-      <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
       <author>rrrasti@yahoo.com (Ryan Rasti)</author>
       <guid>https://ryanrasti.xyz/tags/pass/</guid>
       <description></description>
@@ -260,7 +350,7 @@
     <item>
       <title>Practice</title>
       <link>https://ryanrasti.xyz/tags/practice/</link>
-      <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
       <author>rrrasti@yahoo.com (Ryan Rasti)</author>
       <guid>https://ryanrasti.xyz/tags/practice/</guid>
       <description></description>
@@ -269,9 +359,18 @@
     <item>
       <title>Preparation</title>
       <link>https://ryanrasti.xyz/tags/preparation/</link>
-      <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
       <author>rrrasti@yahoo.com (Ryan Rasti)</author>
       <guid>https://ryanrasti.xyz/tags/preparation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Professional</title>
+      <link>https://ryanrasti.xyz/tags/professional/</link>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
+      <author>rrrasti@yahoo.com (Ryan Rasti)</author>
+      <guid>https://ryanrasti.xyz/tags/professional/</guid>
       <description></description>
     </item>
     
@@ -294,6 +393,15 @@
     </item>
     
     <item>
+      <title>Serverless</title>
+      <link>https://ryanrasti.xyz/tags/serverless/</link>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
+      <author>rrrasti@yahoo.com (Ryan Rasti)</author>
+      <guid>https://ryanrasti.xyz/tags/serverless/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Ssl</title>
       <link>https://ryanrasti.xyz/tags/ssl/</link>
       <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
@@ -303,9 +411,18 @@
     </item>
     
     <item>
+      <title>Step Functions</title>
+      <link>https://ryanrasti.xyz/tags/step-functions/</link>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
+      <author>rrrasti@yahoo.com (Ryan Rasti)</author>
+      <guid>https://ryanrasti.xyz/tags/step-functions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Study</title>
       <link>https://ryanrasti.xyz/tags/study/</link>
-      <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
       <author>rrrasti@yahoo.com (Ryan Rasti)</author>
       <guid>https://ryanrasti.xyz/tags/study/</guid>
       <description></description>
