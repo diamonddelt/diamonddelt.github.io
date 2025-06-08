@@ -325,7 +325,7 @@ section {
 
 /* Contact */
 .contact {
-    background: white;
+    background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
     padding: 80px 0;
 }
 
@@ -333,21 +333,32 @@ section {
     text-align: center;
 }
 
-.contact h2 {
+.contact-message {
+    font-size: 1.2rem;
     margin-bottom: 2rem;
+    color: #2d3748;
 }
 
-.contact-links {
+.contact-info {
     display: flex;
     justify-content: center;
     gap: 2rem;
-    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #2d3748;
+}
+
+.contact-icon {
+    font-size: 1.5rem;
+    color: #667eea;
 }
 
 .contact-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
     color: #667eea;
     text-decoration: none;
     font-weight: 500;
@@ -356,6 +367,10 @@ section {
 
 .contact-link:hover {
     color: #764ba2;
+}
+
+.contact-text {
+    color: #2d3748;
 }
 
 /* Fade-in Animation */
