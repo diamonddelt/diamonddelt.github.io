@@ -92,6 +92,7 @@ nav {
     gap: 1rem;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .btn {
@@ -102,6 +103,8 @@ nav {
     text-decoration: none;
     transition: all 0.3s;
     cursor: pointer;
+    vertical-align: middle;
+    line-height: 1.2;
 }
 
 .btn-primary {
@@ -194,63 +197,74 @@ section {
     background: white;
 }
 
-.timeline {
-    position: relative;
+.experience-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
     padding: 2rem 0;
 }
 
-.timeline::before {
-    content: '';
-    position: absolute;
-    left: 50%;
-    top: 0;
-    bottom: 0;
-    width: 4px;
-    background: #e2e8f0;
-}
-
-.timeline-item {
-    position: relative;
-    padding: 2rem 0;
-    width: 50%;
-}
-
-.timeline-item:nth-child(odd) {
-    left: 0;
-}
-
-.timeline-item:nth-child(even) {
-    left: 50%;
-}
-
-.timeline-item::before {
-    content: '';
-    position: absolute;
-    left: -6px;
-    top: 0;
-    width: 12px;
-    height: 12px;
-    background: #667eea;
-    border-radius: 50%;
-    box-shadow: 0 0 0 4px #e2e8f0;
-}
-
-.timeline-item:nth-child(even)::before {
-    left: auto;
-    right: -6px;
-}
-
-.timeline-content {
+.experience-card {
     background: white;
-    padding: 1.5rem;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin-left: 2rem;
+    padding: 1.5rem;
+    transition: transform 0.3s ease;
 }
 
-.timeline-item:nth-child(even) .timeline-content {
-    margin-left: 0;
-    margin-right: 2rem;
+.experience-card:hover {
+    transform: translateY(-5px);
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.company {
+    font-weight: 600;
+    color: #667eea;
+}
+
+.duration {
+    color: #718096;
+    font-size: 0.9rem;
+}
+
+.job-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #2d3748;
+    margin-bottom: 1rem;
+}
+
+.achievements ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.achievements li {
+    padding: 0.5rem 0;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.achievements li::before {
+    content: '▸';
+    position: absolute;
+    left: 0;
+    color: #667eea;
+    font-weight: bold;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .experience-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 /* Skills */
